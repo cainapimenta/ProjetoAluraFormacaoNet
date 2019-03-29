@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CasaDoCodigo.Repositories;
+using CasaDoCodigo.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -38,7 +36,7 @@ namespace CasaDoCodigo
             services.AddTransient<IPedidoRepository, PedidoRepository>();
             services.AddTransient<ICadastroRepository, CadastroRepository>();
             services.AddTransient<IItemPedidoRepository, ItemPedidoRepository>();
-
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         }
 
 

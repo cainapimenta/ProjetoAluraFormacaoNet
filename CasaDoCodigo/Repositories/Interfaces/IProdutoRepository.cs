@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CasaDoCodigo.Repositories
+namespace CasaDoCodigo.Repositories.Interfaces
 {
     public interface IProdutoRepository
     {

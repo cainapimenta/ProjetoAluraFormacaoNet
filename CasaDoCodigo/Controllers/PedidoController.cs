@@ -1,6 +1,7 @@
 ﻿using CasaDoCodigo.Models;
 using CasaDoCodigo.Models.ViewModels;
 using CasaDoCodigo.Repositories;
+using CasaDoCodigo.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

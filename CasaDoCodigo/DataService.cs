@@ -1,5 +1,5 @@
-﻿using CasaDoCodigo.Models;
-using CasaDoCodigo.Repositories;
+﻿using CasaDoCodigo.Repositories;
+using CasaDoCodigo.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Collections.Generic;

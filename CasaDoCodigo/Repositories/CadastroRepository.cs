@@ -1,16 +1,11 @@
 ﻿using CasaDoCodigo.Models;
+using CasaDoCodigo.Repositories.Interfaces;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace CasaDoCodigo.Repositories
 {
-    public interface ICadastroRepository
-    {
-        Task<Cadastro> Update(int cadastroId, Cadastro novoCadastro);
-    }
-
     public class CadastroRepository : BaseRepository<Cadastro>, ICadastroRepository
     {
         public CadastroRepository(ApplicationContext contexto) : base(contexto)
